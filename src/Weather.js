@@ -39,7 +39,7 @@ function Weather() {
       <input
         type="text"
         value={city}
-        placeholder="Enter city (e.g., London,GB)"
+        placeholder="Enter city (e.g., Delhi,London,New York)"
         onChange={(e) => setCity(e.target.value)}
       />
       <button onClick={fetchWeather} disabled={!city.trim()}>
